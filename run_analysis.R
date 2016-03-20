@@ -81,7 +81,7 @@ tidy_ds <- merged_ds %>%
 
 # output the tidy dataset as a csv file 
 #
-write.table( x = tidy_ds, file = "./tidy_ds.txt", sep = ',')
+write.table( x = tidy_ds, file = "./tidy_ds.txt", sep = ',', row.names = FALSE)
 
 
 
